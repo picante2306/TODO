@@ -1,0 +1,110 @@
+body{
+    background-image: url("./images/EY_photo_NewOrleans-1024x683.jpg");
+    display: flex;
+    
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;           
+    margin: 0;               
+    background-color: #f4f4f9; 
+    position: relative;
+    top: -70px;
+    background-size: cover;
+}
+
+.employee-container {
+    /* font-family: "Arial", sans-serif;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #eef6edbd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; */
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.56);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid #788c78;
+    padding: 25px;
+  }
+  
+
+  .title {
+    text-align: center;
+    color: #fdfbf8df;
+    margin-bottom: 20px;
+  }
+  
+
+  .form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddddddc2;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #45a049;
+  }
+  
+ 
+  .error {
+    color: rgba(221, 17, 17, 0.886);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.825);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-table th {
+    background-color: #4caf50;
+    color: white;
+    text-transform: uppercase;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f1f1f113;
+  }
+  
+  .employee-table td {
+    color: #555;
+  }
+  
+
+  
